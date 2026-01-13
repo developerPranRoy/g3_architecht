@@ -1,8 +1,190 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.work-sans-font{
+.work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.btn {
+    background: #FF900E;
+    color: #ffffff;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+}
+
+.bg-light {
+    background: rgba(255, 144, 14, 0.1);
 
 }
+
+.bg-light-gray {
+    background: #727272;
+}
+
+.text-gray {
+    color: #424242;
+}
+
+.text-light-gray {
+    color: #727272;
+}
+
+.text-orange {
+    color: #000;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.navbar .banner {
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.navItem {
+
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+.navlinks {}
+
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.bnrtitle {
+    font-weight: 700;
+    font-size: 4rem;
+
+}
+
+.bnrimg {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
+
+}
+
+.main {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    gap: 20px;
+    padding: 0 240px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+.feature-content {
+    margin-top: 40px;
+}
+
+.facts {
+    max-width: 1390px;
+    min-height: 470px;
+}
+
+.achived-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 0 auto;
+
+}
+
+.achived {
+    border: 1px solid rgb(213, 237, 149);
+    border-radius: 5px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.sponsores {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.sponsores img {
+    max-width: 100%;
+
+}
+
+.copyright {
+    background: #FFF4E7;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+
+}
+
+#ex-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: -150px;
+    /* margin-left: -100px; */
+
+
+
+
+
+}
+
+#ex-year {
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+#ex {
+    font-size: small;
+    font-weight: 200;
+}
+
+
+
+@media screen and (max-width:476px) {}
